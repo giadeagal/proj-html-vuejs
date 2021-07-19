@@ -21,17 +21,22 @@
     <!-- Sezione NavCards -->
     <NavCards/>
     <!-- /sezione NavCards -->
+
+
+      <TrustedName/>
   </main>
 </template>
 
 <script>
 import Header from "./Header.vue"
 import NavCards from "./NavCards.vue"
+import TrustedName from "./TrustedName.vue"
 export default {
   name:"Main",
   components: {
     Header,
-    NavCards
+    NavCards,
+    TrustedName
     }
 
 }
