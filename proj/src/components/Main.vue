@@ -17,14 +17,22 @@
         </div>
       </div>
     </div>
+
+    <!-- Sezione NavCards -->
+    <NavCards/>
+    <!-- /sezione NavCards -->
   </main>
 </template>
 
 <script>
 import Header from "./Header.vue"
+import NavCards from "./NavCards.vue"
 export default {
   name:"Main",
-  components: {Header},
+  components: {
+    Header,
+    NavCards
+    }
 
 }
 </script>
