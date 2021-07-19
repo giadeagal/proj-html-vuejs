@@ -97,7 +97,7 @@ h2 {
 i {
   margin: 0 5px;
 
-  &:not(.active) {
+  &:not(.active, .clear) {
   opacity:0.5;
 }
 

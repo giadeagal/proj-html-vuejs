@@ -14,13 +14,13 @@
             <a :href="obj.link">{{obj.text}}</a>
           </li>
           <li class="mx-3">
-            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-search clear"></i></a>
           </li>
           <li class="mx-3">
-            <a href="#"><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><i class="fas fa-shopping-bag clear"></i></a>
           </li>
           <li class="mx-3">
-            <a href="#"><i class="fas fa-bars"></i></a>
+            <a href="#"><i class="fas fa-bars clear"></i></a>
           </li>
         </ul>
         </div>
