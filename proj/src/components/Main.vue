@@ -22,6 +22,27 @@
     <NavCards/>
     <TrustedName/>
     <Empowering/>
+    <!-- Fine elenco sezioni -->
+
+    <!-- Jumbo2 -->
+    <div class="jumbo" id="jumbo2">
+      <div class="flexer">
+        <div class="center_group">
+          <img :src="img" alt="">
+          <p class="py-5">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam dolorum quisquam, aut non odio dolores placeat vero fugiat error blanditiis voluptas similique saepe velit exercitationem minus. Voluptatibus deserunt temporibus iste consectetur explicabo odit quae dolore at adipisci ipsa eius voluptatum quisquam unde quam recusandae earum totam quasi, harum minus culpa quidem quos. Atque cumque veritatis modi doloribus non nostrum quaerat enim autem doloremque natus vitae, ducimus blanditiis perferendis labore dignissimos eligendi velit accusantium. Rerum, suscipit? Id perferendis doloribus impedit."</p>
+          <div id="reviewer">
+            <h2 class="my-3">joan collins</h2>
+            <h4>student</h4>
+          </div>
+        </div>
+        <div class="bottom_group">
+          <i class="fas fa-circle"></i>
+          <i class="fas fa-circle fa-xs active"></i>
+          <i class="fas fa-circle"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Fine Jumbo 2 -->
 
 
   </main>
@@ -39,8 +60,12 @@ export default {
     NavCards,
     TrustedName,
     Empowering
+    },
+  data() {
+    return {
+      img: require("@/img/testimonials-standard-2.png")
     }
-
+  }
 }
 </script>
 
@@ -51,12 +76,41 @@ export default {
 .jumbo {
   width: 100%;
   height: 90vh;
-  background-image: url("./../assets/img/h5-slide-3-background.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
 }
+
+#elevate-here {
+    background-image: url("./../assets/img/h5-slide-3-background.jpg");
+}
+
+#jumbo2 {
+    background-image: url("./../img/h5-parallax-img-1.png");
+
+    img {
+      width: 200px;
+      min-height: 200px;
+    }
+
+    p {
+      font-size: 1.3rem;
+    }
+
+    #reviewer {
+
+      h2 {
+        text-transform: capitalize;
+      }
+
+      h4 {
+        text-transform: uppercase;
+      }
+
+    }
+}
+
 
 .flexer {
   display: flex;

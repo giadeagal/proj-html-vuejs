@@ -24,6 +24,7 @@
               </ul>
             </div>
       </div>
+      
   </section>
 </template>
 
@@ -54,7 +55,8 @@ export default {
 @import "@/styles/vars.scss";
 
 #empowering {
-    height: 500px;
+    height: 800px;
+    width: 100%;
 }
 
 img {
@@ -85,5 +87,6 @@ li {
         font-weight: 600;
     }
 }
+
 
 </style>
