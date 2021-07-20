@@ -44,6 +44,10 @@
     </div>
     <!-- Fine Jumbo 2 -->
 
+    <!-- elenco sezioni bottom -->
+    <Possibilities/>
+    <!-- fine elenco sezioni bottom -->
+
 
   </main>
 </template>
@@ -53,13 +57,15 @@ import Header from "./Header.vue"
 import NavCards from "./NavCards.vue"
 import TrustedName from "./TrustedName.vue"
 import Empowering from "./Empowering.vue"
+import Possibilities from "./Possibilities"
 export default {
   name:"Main",
   components: {
     Header,
     NavCards,
     TrustedName,
-    Empowering
+    Empowering,
+    Possibilities
     },
   data() {
     return {
