@@ -21,6 +21,7 @@
     <!-- elenco sezioni -->
     <NavCards/>
     <TrustedName/>
+    <Elevator/>
     <Empowering/>
     <!-- Fine elenco sezioni -->
 
@@ -58,6 +59,7 @@ import NavCards from "./NavCards.vue"
 import TrustedName from "./TrustedName.vue"
 import Empowering from "./Empowering.vue"
 import Possibilities from "./Possibilities"
+import Elevator from "./Elevator.vue"
 export default {
   name:"Main",
   components: {
@@ -65,7 +67,8 @@ export default {
     NavCards,
     TrustedName,
     Empowering,
-    Possibilities
+    Possibilities,
+    Elevator
     },
   data() {
     return {
@@ -179,5 +182,25 @@ i {
     opacity: 1;
   }
 }
+
+#elevator {
+        background-color: $myBGBlue4;
+        color: white;
+        position: fixed;
+        bottom:0;
+        right: 20px;
+        width: 70px;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+
+        p {
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
 
 </style>
