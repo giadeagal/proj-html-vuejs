@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="jumbo">
+    <div class="jumbo" id="elevate-here">
       <Header/>
       <div class="flexer">
         <div class="center_group">
@@ -23,7 +23,7 @@
     <!-- /sezione NavCards -->
 
 
-      <TrustedName/>
+    <TrustedName/>
   </main>
 </template>
 
