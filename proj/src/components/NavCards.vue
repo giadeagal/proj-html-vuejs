@@ -79,6 +79,7 @@ export default {
 
         p {
             font-weight: 800;
+            font-size: 1.3rem;
             text-transform: capitalize;
         }
     }

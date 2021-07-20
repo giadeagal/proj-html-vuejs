@@ -47,6 +47,7 @@ h2 {
 
 p {
     color: $myTGray3;
+    font-size: 1.5rem;
 }
 
 a {

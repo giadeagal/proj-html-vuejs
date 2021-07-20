@@ -18,12 +18,12 @@
       </div>
     </div>
 
-    <!-- Sezione NavCards -->
+    <!-- elenco sezioni -->
     <NavCards/>
-    <!-- /sezione NavCards -->
-
-
     <TrustedName/>
+    <Empowering/>
+
+
   </main>
 </template>
 
@@ -31,12 +31,14 @@
 import Header from "./Header.vue"
 import NavCards from "./NavCards.vue"
 import TrustedName from "./TrustedName.vue"
+import Empowering from "./Empowering.vue"
 export default {
   name:"Main",
   components: {
     Header,
     NavCards,
-    TrustedName
+    TrustedName,
+    Empowering
     }
 
 }
