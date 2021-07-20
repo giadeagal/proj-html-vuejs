@@ -53,22 +53,20 @@ footer {
     border-bottom: 10px solid lightgray;
     padding: 100px 0;
   }
-}
+  
+  h2 {
+    color: white;
+  }
 
-h2 {
-  color: white;
-}
+  p {
+    width: 80%;
+  }
 
-p {
-  width: 80%;
-
-  i:hover {
-    color:$myTBlue1;
+  #map {
+    width: 80%;
+    min-height: 150px;
   }
 }
 
-#map {
-  width: 80%;
-  min-height: 150px;
-}
+
 </style>
