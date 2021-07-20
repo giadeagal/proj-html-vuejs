@@ -5,7 +5,7 @@
       <div class="container">
         <a href="#" class="float-start">
           <div class="logo">
-            <img :src="require('@/assets/img/logo-light.png')" alt="logo">
+            <img :src="require('@/img/logo-light.png')" alt="logo">
             <div class="underline"></div>
           </div>
         </a>
