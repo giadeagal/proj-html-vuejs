@@ -18,12 +18,16 @@
       </div>
     </div>
 
-    <!-- elenco sezioni -->
+    <!-- Bottoni laterali -->
+    <Elevator/>
+    <AsideButtons/>
+    <!-- Fine bottoni laterali -->
+
+    <!-- elenco sezioni top-->
     <NavCards/>
     <TrustedName/>
-    <Elevator/>
     <Empowering/>
-    <!-- Fine elenco sezioni -->
+    <!-- Fine elenco sezioni top -->
 
     <!-- Jumbo2 -->
     <div class="jumbo" id="jumbo2">
@@ -60,6 +64,7 @@ import TrustedName from "./TrustedName.vue"
 import Empowering from "./Empowering.vue"
 import Possibilities from "./Possibilities"
 import Elevator from "./Elevator.vue"
+import AsideButtons from "./AsideButtons.vue"
 export default {
   name:"Main",
   components: {
@@ -68,7 +73,8 @@ export default {
     TrustedName,
     Empowering,
     Possibilities,
-    Elevator
+    Elevator,
+    AsideButtons
     },
   data() {
     return {
@@ -203,4 +209,10 @@ i {
         }
     }
 
+aside {
+    position: fixed;
+    right: 15px;
+    top: 60%;
+    width: 30px;
+}
 </style>
