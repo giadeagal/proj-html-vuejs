@@ -51,6 +51,7 @@
 
     <!-- elenco sezioni bottom -->
     <Possibilities/>
+    <Partners/>
     <!-- fine elenco sezioni bottom -->
 
 
@@ -65,6 +66,7 @@ import Empowering from "./Empowering.vue"
 import Possibilities from "./Possibilities"
 import Elevator from "./Elevator.vue"
 import AsideButtons from "./AsideButtons.vue"
+import Partners from "./Partners.vue"
 export default {
   name:"Main",
   components: {
@@ -74,7 +76,8 @@ export default {
     Empowering,
     Possibilities,
     Elevator,
-    AsideButtons
+    AsideButtons,
+    Partners
     },
   data() {
     return {
