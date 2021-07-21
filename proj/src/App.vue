@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <Main/>
-    <Footer/>
+    <div class="main_wrapper">
+      <Main/>
+      <Footer/>
+    </div>
   </div>
 </template>
 
@@ -21,4 +23,9 @@ export default {
 
 <style lang="scss">
 @import "@/styles/commons.scss";
+
+.main_wrapper {
+  width: 100%;
+  overflow: hidden;
+}
 </style>
