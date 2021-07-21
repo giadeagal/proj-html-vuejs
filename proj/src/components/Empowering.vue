@@ -61,6 +61,7 @@ export default {
 
 img {
     min-height: 500px;
+    max-width: 100%;
     margin-top:150px;
 }
 
