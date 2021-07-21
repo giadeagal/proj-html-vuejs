@@ -95,7 +95,7 @@ export default {
 @import "@/styles/vars.scss";
 
 .jumbo {
-  width: 100%;
+  width: 90%;
   height: 90vh;
   background-position: center;
   background-size: cover;
@@ -104,7 +104,7 @@ export default {
 }
 
 #elevate-here {
-    background-image: url("./../assets/img/h5-slide-3-background.jpg");
+    background-image: url("./../img/h5-slide-3-background.jpg");
 }
 
 #jumbo2 {
@@ -208,6 +208,7 @@ i {
         align-items: center;
         justify-content: center;
         text-decoration: none;
+        z-index: 3;
 
         p {
             text-transform: uppercase;

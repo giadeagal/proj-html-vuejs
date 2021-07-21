@@ -11,6 +11,12 @@
                     <img :src="obj.img" alt="obj.alt">
                 </div>
             </div>
+
+            <div class="py-5 bottom-icons">
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle active"></i>
+                <i class="fas fa-circle"></i>
+            </div>
       </div>
   </section>
 </template>
@@ -41,16 +47,38 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "@/styles/vars.scss";
 
 #popular {
-    height: 900px;
+    height: 1000px;
     border-bottom: 1px solid lightgray;
     background-image: url("./../img/page-background-img.png");
 
     img {
         width: 100%;
         min-height: 550px;
+        position: relative;
+        box-shadow: 10px 20px lightgray;
+
+        &:hover {
+            animation: rise 200ms forwards;
+            cursor: pointer;
+        }
+    }
+
+    .bottom-icons {
+
+        position: relative;
+        left: 50%;
+        top:50px;
+        
+        i {
+            color: $myTBlue1;
+        }
     }
 }
-
+@keyframes rise {
+        from {bottom: 0px;}
+        to {bottom: 20px;}
+}
 </style>
