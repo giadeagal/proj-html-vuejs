@@ -95,7 +95,7 @@ export default {
 @import "@/styles/vars.scss";
 
 .jumbo {
-  width: 90%;
+  width: 100%;
   height: 90vh;
   background-position: center;
   background-size: cover;
